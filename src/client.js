@@ -1,7 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+class HelloWorld extends React.Component {
+  render(){
+    return (
+    <h2>Hello World From Class</h2>
+    );
+  }
+}
+
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <HelloWorld />,
   document.getElementById('app')
 );
