@@ -1,1 +1,0 @@
-Learning React from various online tutorials.
